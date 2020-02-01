@@ -1,7 +1,7 @@
 
 function parseDataAndChart() {
   //Load and parse CSV File
-  const wesdata = Papa.parse('http://localhost:8000/insider/wes-response/responseRate.csv', {
+  const wesdata = Papa.parse('https://bcpsa.gww.gov.bc.ca/sites/default/files/wes/responseRate.csv', {
       download: true,
       dynamicTyping: true,
       complete: function(results) {
