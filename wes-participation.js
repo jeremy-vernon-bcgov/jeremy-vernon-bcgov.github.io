@@ -60,7 +60,7 @@ function parseDataAndChart() {
       psa.divisions.forEach(function(division){
           //convert labels based on names
           
-          division.title == 'Business Performance' ? labels.push('CORPORATE\nSERVICES +\nDM\'s OFFICE') : '' ;
+          //division.title == 'Business Performance' ? labels.push('CORPORATE\nSERVICES +\nDM\'s OFFICE') : '' ;
           labels.push(division.title);
           
       
