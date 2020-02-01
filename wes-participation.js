@@ -61,7 +61,13 @@ function parseDataAndChart() {
           //convert labels based on names
           
           //division.title == 'Business Performance' ? labels.push('CORPORATE\nSERVICES +\nDM\'s OFFICE') : '' ;
-          labels.push(division.title);
+          division.title == 'Policy, Innovation and Engagement' ? labels.push('PIE') : '';
+          division.title == 'Labour and Employee Relations and Total Compensation' ? labels.push('Labour & ER and Compensation') : '';
+          division.title == "Corporate Services & Deputy Minister's Office" ? labels.push('Corp. Services & DMO') : '';
+          division.title == "Hiring and Service Operations" ? labels.push('Hiring & Service Ops.') : '';
+          division.title == "People and Organizational Development" ? labels.push('People & Org. Dev.') : '';
+          division.title == "Workplace Health and Safety" ? labels.push('Workplace H&S') : '';
+          //labels.push(division.title);
           
       
 
