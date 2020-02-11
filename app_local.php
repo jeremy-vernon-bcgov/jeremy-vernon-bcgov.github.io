@@ -178,8 +178,8 @@ else {
          */
         'EmailTransport' => [
             'default' => [
-                'host' => getenv('LSA_EMAIL_HOST',
-                    'port' => getenv('LSA_EMAIL_PORT'),
+                'host' => getenv('LSA_EMAIL_HOST'),
+                'port' => getenv('LSA_EMAIL_PORT'),
                 'username' => null,
                 'password' => null,
                 'client' => null,
